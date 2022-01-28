@@ -15,15 +15,20 @@ const App = () => {
   return (
     <>
       <Header />
-      <Section1 />
+      <div className="container">
+        <Section1 />
+      </div>
       <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <QuestionAndAnswer />
+      <div className="container">
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Section7 />
+        <QuestionAndAnswer />
+      </div>
       <Footer />
+
     </>
   )
 }

@@ -7,6 +7,12 @@ body{
     font-family: 'Poppins', sans-serif;
     color:white;
 }
+.container{
+    width:100%;
+    max-width:1270px;
+    margin-left:auto;
+    margin-right:auto;
+}
 .head{
     position:sticky;
     top:0px;
@@ -162,10 +168,11 @@ body{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    padding-left:2rem;
 }
 .s41{
     margin-left: 9rem;
-    margin-right: 14rem;
+    margin-right: 11rem;
 }
 .s41 h1{
     font-size: 42px;
@@ -452,12 +459,17 @@ body{
 
 
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 500px){
     .head{
         display:flex;
         flex-direction:row;
         justify-content:space-between;
         align-items:center;
+    }
+    .container{
+        width:360px;
+        margin-left:auto;
+        margin-right:auto;
     }
     .navs{
         display:none;
@@ -541,6 +553,7 @@ body{
     }
     .section4{
         margin-top:3rem;
+        padding-left:0rem;
     }
     .s41{
         margin-left:1rem;
@@ -714,7 +727,7 @@ body{
         align-items:center;
     }
     .question-body h3{
-        font-size:0.8rem;
+        font-size:0.9rem;
     }
     .bluebox{
         width:1rem;
@@ -722,7 +735,7 @@ body{
         margin-right:1rem;
     }
     .showPtag{
-        font-size:0.5rem;
+        font-size:0.9rem;
         width:16rem;
         margin-left:2rem;
         margin-top: 0rem;
@@ -732,9 +745,9 @@ body{
         height:18rem;
     }
     .footer h1{
-        margin-left:1.8rem;
+        margin-left:auto;
         font-size:1.5rem;
-        margin-right:0rem;
+        margin-right:auto;
         padding-top:1.7rem;
         width:18rem;
         line-height:2rem;
@@ -781,5 +794,12 @@ body{
         width: 7rem;
         height: 2.5rem;
         border: none;
+    }
+}
+@media only screen and (min-width: 1525px){
+    .container{
+        width:1522px;
+        margin-left:auto;
+        margin-right:auto;
     }
 }
