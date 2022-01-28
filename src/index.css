@@ -1,13 +1,785 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&display=swap');
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color:#000000;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+.head{
+    position:sticky;
+    top:0px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.navs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin-right: 9rem;
+    width: 35rem;
+    text-decoration:none;
+}
+.navs a{
+    text-decoration:none;
+    color:white;
+}
+.navs a:hover{
+    color:#0189DF;
+}
+.head h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 48px;
+    margin-left: 10rem;
+}
+.navs h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+.navs button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    background: #0189DF;
+    border-radius: 8px;
+    color: white;
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+}
+.section1{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.enroll{
+    margin-left:9.5rem;
+    margin-right: 13rem;
+}
+.phonesilver{
+    margin-right: 9rem;
+    width:19.5rem;
+    height:35rem;
+    
+}
+.enroll h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: -0.01em;
+}
+.enroll h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 105.5%;
+    letter-spacing:0.0em;
+}
+.enroll .first{
+    margin-top:3rem;
+}
+.enrollbutton1{
+    width:12rem;
+    height:3.5rem;
+    margin-top: 2.3rem;
+}
+.section2{
+    display:flex;
+    justify-content: space-around;
+    background-color: #0189DF;
+    margin-top: 8rem;
+}
+.students h1, .hours h1, .rating h1{
+    margin-top:3.5rem;
+    line-height: 0;
+    font-weight:800;
+}
+.fa-star{
+    font-size:1.3rem;
+    padding-left:0.5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.rating h2{
+    margin-top:0rem;
+    font-weight: normal;
+}
+.students h2, .hours h2{
+    font-weight: normal;
+}
+.section3{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: 13rem;
+}
+.course h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 113.5%;
+    letter-spacing: -0.01em;
+    margin-left: 9rem;
+    padding-right:7rem;
+}
+.abouts{
+    margin-right:7rem;
+}
+.about1{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   width:14rem;
+   margin-right:2rem;
+}
+.uppabout{
+    display:flex;
+    flex-direction:row;
+    margin-top:2rem;
+}
+.about1 img{
+    width:3rem;
+}
+.about1 h3{
+    text-align:center;
+    font-size:0.8rem;
+    font-weight:normal;
+}
+.section4{
+    margin-top: 14rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.s41{
+    margin-left: 9rem;
+    margin-right: 14rem;
+}
+.s41 h1{
+    font-size: 42px;
+    line-height: 3.2rem;
+}
+.s41 h2{
+    font-size: 17.15px;
+    font-weight: normal;
+    line-height: 1rem;
+}
+.section5{
+    margin-top: 46.5rem;
+    text-align: center;
+}
+.section5 h1{
+    font-size: 41px;
+}
+.syllabus{
+    display: flex;
+    justify-content:space-between;
+    margin-left:9rem;
+    margin-right: 9rem;
+    margin-top: 5rem;
+}
+.syllabus div{
+    width:15rem;
+}
+.syllabus div img{
+    width:3rem;
+}
+.syllabus div h2{
+    font-weight: normal;
+    font-size: 14px;
+}
+.section6{
+    margin-top:12rem;
+    display:flex;
+    justify-content:space-around;
+}
+.sec2{
+    display:flex;
+    justify-content:space-between;
+}
+.grow{
+    margin-left:9rem;
+    width:21rem;
+    diplay:inline;
+}
+.grow h1{
+    font-size:41px;
+}
+.grow h3{
+    font-weight: normal;
+    font-size: 14px;
+}
+.bullets img{
+    margin-top:1rem;
+    width:2.8rem;
+    height:39rem;
+    margin-right:2.5rem;
+}
+.points{
+    margin-right:9rem;
+    width:22rem;
+}
+.points div{
+    margin-top:2rem;
+}
+.points div h2{
+    font-size:20px;
+    line-height: 1.5rem;
+}
+.points div h3{
+    font-weight: normal;
+    font-size:14px;
+}
+.section7{
+    margin-top: 14rem;
+    display:flex;
+    justify-content:space-around;
+}
+.jaspreet img{
+    margin-left:14rem;
+    width:20rem;
+}
+.info{
+    margin-right:15rem;
+    margin-top:3rem;
+}
+.info h2{
+    font-size:14px;
+    line-height:0.5rem;
+}
+.info h1{
+    font-size:35px;
+    line-height:2rem;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:2rem;
+    width:13rem;
+}
+.fa-youtube-square, .fa-facebook-square, .fa-twitter-square{
+    font-size:2.5rem;
+}
+.fa-telegram-plane{
+    font-size:1.5rem;
+    padding:0.4rem;
+    color:black;
+    background-color:white;
+    border-radius:5px;
+    margin-bottom:0.2rem;
+}
+.fa-telegram-plane:hover{
+    background-color:#0189DF;
+}
+.fa-youtube-square:hover, .fa-facebook-square:hover, .fa-twitter-square:hover{
+    color:#0189DF;
+    transition: all 0.5s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.icons a{
+    color:white;
+}
+.faq-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:12rem;
+    margin-left:9rem;
+    margin-right:9rem;
+}
+.faq-heading {
+    font-size: 40px;
+    margin-bottom:4rem;
+}
+.faq-question {
+    font-size: 20px;
+}
+.question-body h3{
+    display:flex;
+}
+.bluebox{
+    margin-right:1.8rem;
+}
+.faq-question .question-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.transformIcon {
+    transform: rotate(90deg) !important;
+}
+.hidePtag {
+    display: none !important;
+}
+.showPtag {
+    transition: all 1s ease-in-out;
+    font-weight:normal;
+    font-size: 17px;
+    margin-left: 3rem;
+
+}
+.fa-chevron-right{
+    color:white;
+    transform: rotate(90deg);
+}
+.footer{
+    background-color:#0189DF;
+    margin-top:12rem;
+    height:25rem;
+    diplay:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.footer h1{
+    font-size:40px;
+    margin-left:16rem;
+    margin-right:16rem;
+    padding-top:4rem;
+    line-height:2.9rem;
+}
+.enrollButton2{
+    width:14rem;
+    margin-top:1rem;
+}
+.line{
+    width:78.8rem;
+    height:0.1rem;
+    margin-top:3rem;
+}
+.footer h3{
+    font-weight:normal;
+}
+.card1, .card2, .card3{
+    border: 0.592827px solid #FFFFFF;
+    border-radius: 17.7848px;
+    margin-left:9rem;
+    width:27rem;
+}
+.card1 h2, .card2 h2, .card3 h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    color: #70757C;
+    padding-left:4rem;
+
+}
+.cardheader{
+    display:flex;
+    margin-left:1.7rem;
+}
+.userphoto{
+    width:3rem;
+    height:3rem;
+}
+.name h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #D9D9D9;
+    display:flex;
+    align-items:center;
+    margin-left:1rem;
+    margin-bottom:0;
+}
+.verify{
+    width:0.8rem;
+    margin-left:6px;
+}
+.name h2{
+    font-family: Inter;
+    color: #70757C;
+    padding-left:1rem;
+    margin-top:0;
+}
+.tweet{
+    width:1.5rem;
+    height:1.5rem;
+    margin-left:11rem;
+    margin-top:0.5rem
+}
+.cardmiddle{
+    margin-left:1.7rem;
+    margin-right:2.1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #D9D9D9;
+}
+.cardfooter h2{
+    margin-left:1.7rem;
+    padding-left:0px;
+}
+.card1{
+    position:absolute;
+    margin-top:3rem;
+}
+.card2{
+    position:absolute;
+    margin-top:10rem;
+    margin-left:43rem;
+}
+.card3{
+    position:absolute;
+    margin-top:21rem;
+    margin-left:12rem;
+}
+.burger{
+    display:none;
+}
+
+
+
+@media only screen and (max-width: 420px){
+    .head{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .navs{
+        display:none;
+    }
+    .burger{
+        width: 2rem;
+        height: 2rem;
+        display:flex;
+        margin-top:0rem;
+        margin-right:1rem;
+        padding-bottom:1.6rem;
+    }
+    .head h1{
+        font-size:1rem;
+        margin-left:2rem;
+    }
+    .section1{
+        display:flex;
+        flex-direction:column-reverse;
+        margin-top:1rem;
+    }
+    .phonesilver{
+        width:10rem;
+        height:20rem;
+        margin-left:6rem;
+        margin-right:0rem;
+    }
+    .enroll{
+        margin-left:2rem;
+        margin-right:0rem;
+    }
+    .enroll h1{
+        font-size:1.7rem;
+        line-height:2rem;
+        margin-bottom:0rem;
+    }
+    .enroll h3{
+        font-weight:400;
+        font-size:0.8rem;
+        margin-left:0rem;
+        padding-left:0rem;
+    }
+    .enroll .first{
+        margin-top:2rem;
+    }
+    .enrollbutton1{
+        margin-top:1rem;
+    }
+    .section2{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        text-align:center;
+        height:26rem;
+    }
+    .students h1{
+        margin-top:2.6rem;
+    }
+    .section3{
+        display:flex;
+        flex-direction:column;
+        margin-top:5rem;
+    }
+    .course h1{
+        font-size:2rem;
+        padding-right:0rem;
+        margin-left:3rem;
+        margin-bottom:0rem;
+    }
+    .uppabout{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .abouts{
+        margin-left:1rem;
+        margin-right:0rem;
+    }
+    .about1{
+        margin-top:1.5rem;
+    }
+    .section4{
+        margin-top:3rem;
+    }
+    .s41{
+        margin-left:1rem;
+        margin-right:0rem;
+    }
+    .s41 h1{
+        font-size:1.6rem;
+        line-height:2rem;
+    }
+    .s41 h2{
+        font-size:0.8rem;
+    }
+    .card1, .card2, .card3{
+        position:relative;
+        margin-left:0rem;
+        margin-top:2rem;
+    }
+    .cards{
+        display:flex;
+        flex-direction:column;
+    }
+    .card1, .card2, .card3{
+        margin-left:1.5rem;
+        width:19.5rem;
+    }
+    .card1 h2, .card2 h2, .card3 h2{
+        font-size: 9px;
+        line-height: 13px;
+        padding-left:3rem;
+    
+    }
+    .cardheader{
+        margin-left:1rem;
+    }
+    .userphoto{
+        width:2.2rem;
+        height:2.2rem;
+    }
+    .name h1{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        display:flex;
+        align-items:center;
+        margin-left:1rem;
+        margin-bottom:0;
+    }
+    .verify{
+        width:0.8rem;
+        margin-left:5px;
+    }
+    .name h2{
+        padding-left:1rem;
+        margin-top:0;
+    }
+    .tweet{
+        width:1rem;
+        height:1rem;
+        margin-left:7rem;
+        margin-top:0.5rem
+    }
+    .cardmiddle{
+        margin-left:1rem;
+        margin-right:1.1rem;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        color: #D9D9D9;
+    }
+    .cardfooter h2{
+        margin-left:1rem;
+        padding-left:0px;
+    }
+    .section5{
+        margin-top:5rem;
+    }
+    .section5 h1{
+        font-size: 2rem;
+        margin-bottom:0rem;
+    }
+    .syllabus{
+        display:flex;
+        flex-direction: column;
+        margin-left:2.8rem;
+        margin-top:0rem;
+    }
+    .syllabus div{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-left:0rem;
+        width:17rem;
+        text-align:left;
+        margin-top:2rem;
+    }
+    .syllabus div h2{
+        margin-left:1rem;
+    }
+    .syllabus div img{
+        width:3rem;
+        height:3rem;
+    }
+    .section6{
+        display:flex;
+        flex-direction:column;
+        margin-top:4rem;
+    }
+    .grow{
+        margin-left:1.3rem;
+        width:18.5rem;
+    }
+    .grow h1{
+        margin-bottom:0rem;
+        font-size:2.5rem;
+    }
+    .grow h3{
+        font-size:12px;
+    }
+    .sec2{
+        diplay:flex;
+        justify-content:center;
+    }
+    .bullets img{
+        margin-right:0rem;
+        margin-right:1.5rem;
+        
+    }
+    .points{
+        margin-right:0rem;
+        width:15.5rem;
+    }
+    .points div h2{
+        font-size:14px;
+    }
+    .points div h3{
+        font-size:11px;
+        font-weight:200;
+    }
+    .section7{
+        diplay:flex;
+        flex-direction:column;
+        justify-content:center;
+        margin-top:5rem;
+    }
+    .jaspreet img{
+        margin-left:1.3rem;
+    }
+    .info{
+        margin-right:0rem;
+        margin-top:1.3rem;
+        margin-left:1.3rem;
+    }
+    .info h2{
+        font-weight:normal;
+    }
+    .info h1{
+        font-size:1.7rem;
+    }
+    .faq-body{
+        margin-top:3rem;
+        margin-left:1.3rem;
+    }
+    .faq-heading{
+        font-size:1.8rem;
+        width:20rem;
+        margin-bottom:1.5rem;
+    }
+    .question-body{
+        width:19rem;
+        display:flex;
+        align-items:center;
+    }
+    .question-body h3{
+        font-size:0.8rem;
+    }
+    .bluebox{
+        width:1rem;
+        height:1rem;
+        margin-right:1rem;
+    }
+    .showPtag{
+        font-size:0.5rem;
+        width:16rem;
+        margin-left:2rem;
+        margin-top: 0rem;
+    }
+    .footer{
+        margin-top:4rem;
+        height:18rem;
+    }
+    .footer h1{
+        margin-left:1.8rem;
+        font-size:1.5rem;
+        margin-right:0rem;
+        padding-top:1.7rem;
+        width:18rem;
+        line-height:2rem;
+    }
+    .line{
+        width:22.5rem;
+    }
+    .enrollButton2{
+        width:11rem;
+    }
+    .footer h3{
+        font-size:0.65rem;
+    }
+    .dd{
+        position: absolute;
+        top:4rem;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding-left:2rem;
+        width:20.5rem;
+        height:21rem;
+        z-index: 1000;
+      }
+      .dd a{
+        text-decoration:none;
+        color:white;
+      }
+    .dd a h2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        
+    }
+    .dd button{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        background: #0189DF;
+        border-radius: 8px;
+        color: white;
+        width: 7rem;
+        height: 2.5rem;
+        border: none;
+    }
 }
