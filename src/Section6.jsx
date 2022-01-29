@@ -25,7 +25,7 @@ const Section6 = () => {
                         <h2>Technical Strategies</h2>
                         <h3>Right direction and approach is required and for the same we have figured out to help individuals with 7 strategies</h3>
                     </div>
-                    <div>
+                    <div className="ta">
                         <h2>Technical Analysis - Candlesticks and Patterns</h2>
                         <h3>Once you get comfortable in reading charts trading become much easire and for the same we try to bring value by teaching 20+ charts.</h3>
                     </div>
