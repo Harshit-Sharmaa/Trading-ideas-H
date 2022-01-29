@@ -37,7 +37,7 @@ const Section5 = () => {
                 </div>
                 <div>
                     <img src="./photos/syll8.png" />
-                    <h2>Money management & phycological discussions</h2>
+                    <h2>Money management & psychological discussions</h2>
                 </div>
             </div>
 

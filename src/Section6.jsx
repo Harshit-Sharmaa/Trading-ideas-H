@@ -5,8 +5,8 @@ const Section6 = () => {
         <div className="section6" id="schedule">
             <div className="grow">
                 <h1>Schedule</h1>
-                <h3>Bootcamp is designed in a way which allows traders to follow a system which  helps them to make consistent returns month over month. the goal is not to just make profits but also survives for longer period in the market.</h3>
-                <h3>Bootcamp consists of different strategies, phycologinal points which helps user to become a good tarder.</h3>
+                <h3>Bootcamp is designed in a way which allows traders to follow a system which  helps them to make consistent returns month over month. The goal is not to just make profits but also survives for longer period in the market. </h3>
+                <h3>Bootcamp consists of different strategies, psychological points which helps user to become a good tarder.</h3>
             </div>
             <div className="sec2">
                 <div className="bullets">
