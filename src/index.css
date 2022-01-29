@@ -756,7 +756,7 @@ body{
         align-items:center;
     }
     .question-body h3{
-        font-size:0.9rem;
+        font-size:0.8rem;
     }
     .bluebox{
         width:1rem;
@@ -764,7 +764,7 @@ body{
         margin-right:1rem;
     }
     .showPtag{
-        font-size:0.9rem;
+        font-size:0.8rem;
         width:16rem;
         margin-left:2rem;
         margin-top: 0rem;
