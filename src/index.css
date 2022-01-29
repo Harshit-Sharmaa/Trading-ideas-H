@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
 body{
     margin:0px;
     padding:0px;
@@ -106,6 +109,11 @@ body{
     background-color: #0189DF;
     margin-top: 8rem;
 }
+.section2 .container{
+    display:flex;
+    justify-content: space-around;
+    background-color: #0189DF;
+}
 .students h1, .hours h1, .rating h1{
     margin-top:3.5rem;
     line-height: 0;
@@ -128,7 +136,8 @@ body{
     flex-direction:row;
     justify-content: space-around;
     align-items:center;
-    margin-top: 13rem;
+    margin-top:7rem;
+    padding-top: 6rem;
 }
 .course h1{
     font-style: normal;
@@ -164,15 +173,16 @@ body{
     font-weight:normal;
 }
 .section4{
-    margin-top: 14rem;
+    padding-top:7rem;
+    margin-top: 5rem;
     display:flex;
     flex-direction:column;
     justify-content:center;
     padding-left:2rem;
 }
 .s41{
-    margin-left: 9rem;
-    margin-right: 11rem;
+    margin-left:7.1rem;
+    margin-right: 14rem;
 }
 .s41 h1{
     font-size: 42px;
@@ -184,7 +194,8 @@ body{
     line-height: 1rem;
 }
 .section5{
-    margin-top: 46.5rem;
+    padding-top:3.5rem;
+    margin-top: 43rem;
     text-align: center;
 }
 .section5 h1{
@@ -208,7 +219,8 @@ body{
     font-size: 14px;
 }
 .section6{
-    margin-top:12rem;
+    padding-top:6rem;
+    margin-top:6rem;
     display:flex;
     justify-content:space-around;
 }
@@ -229,7 +241,7 @@ body{
     font-size: 14px;
 }
 .bullets img{
-    margin-top:1rem;
+    margin-top:1.8rem;
     width:2.8rem;
     height:39rem;
     margin-right:2.5rem;
@@ -303,7 +315,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top:12rem;
+    padding-top:7rem;
+    margin-top:0rem;
     margin-left:9rem;
     margin-right:9rem;
 }
@@ -381,7 +394,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 19px;
     letter-spacing: -0.03em;
     color: #70757C;
@@ -400,7 +413,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
     letter-spacing: -0.03em;
     color: #D9D9D9;
@@ -425,13 +438,16 @@ body{
     margin-left:11rem;
     margin-top:0.5rem
 }
+#cm{
+    font-size:10px;
+}
 .cardmiddle{
     margin-left:1.7rem;
     margin-right:2.1rem;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 130%;
     color: #D9D9D9;
 }
@@ -442,16 +458,17 @@ body{
 .card1{
     position:absolute;
     margin-top:3rem;
+    margin-left:7rem;
 }
 .card2{
     position:absolute;
     margin-top:10rem;
-    margin-left:43rem;
+    margin-left:41.5rem;
 }
 .card3{
     position:absolute;
-    margin-top:21rem;
-    margin-left:12rem;
+    margin-top:19.5rem;
+    margin-left:11rem;
 }
 .burger{
     display:none;
@@ -525,13 +542,20 @@ body{
         text-align:center;
         height:26rem;
     }
+    .section2 .container{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        background-color: #0189DF;
+    }
     .students h1{
         margin-top:2.6rem;
     }
     .section3{
         display:flex;
         flex-direction:column;
-        margin-top:5rem;
+        padding-top:5rem;
+        margin-top:0rem;
     }
     .course h1{
         font-size:2rem;
@@ -552,8 +576,9 @@ body{
         margin-top:1.5rem;
     }
     .section4{
-        margin-top:3rem;
+        padding-top:4rem;
         padding-left:0rem;
+        margin-top:0rem;
     }
     .s41{
         margin-left:1rem;
@@ -619,7 +644,7 @@ body{
         margin-left:1rem;
         margin-right:1.1rem;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 120%;
         color: #D9D9D9;
     }
@@ -628,7 +653,8 @@ body{
         padding-left:0px;
     }
     .section5{
-        margin-top:5rem;
+        padding-top:5rem;
+        margin-top:0rem;
     }
     .section5 h1{
         font-size: 2rem;
@@ -659,7 +685,8 @@ body{
     .section6{
         display:flex;
         flex-direction:column;
-        margin-top:4rem;
+        padding-top:4rem;
+        margin-top:0rem;
     }
     .grow{
         margin-left:1.3rem;
@@ -713,8 +740,9 @@ body{
         font-size:1.7rem;
     }
     .faq-body{
-        margin-top:3rem;
+        padding-top:4rem;
         margin-left:1.3rem;
+        margin-top:0rem;
     }
     .faq-heading{
         font-size:1.8rem;

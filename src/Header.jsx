@@ -10,9 +10,9 @@ const Header = () => {
             <div className="burger">
                 <p onClick={() => { setOpen(!open) }}>{open ? <i class="fas fa-times"></i> : <i class="fas fa-bars"></i>}</p>
             </div>
-            {open && <Dropdown />}
+            {open && <Dropdown setOpen={setOpen} />}
             <div className="navs">
-                <a href="#overview"><h2>Overview</h2></a>
+                <a href="#overview" onClick={() => setOpen(false)}><h2>Overview</h2></a>
                 <a href="#testimonials"><h2>Testimonials</h2></a>
                 <a href="#syllabus"><h2>Syllabus</h2></a>
                 <a href="#schedule"><h2>Schedule</h2></a>
