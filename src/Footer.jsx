@@ -1,11 +1,14 @@
 import React from "react";
 
 const Footer = () => {
+    const handleClick = () => {
+        window.open("https://rzp.io/l/zoTEgKr");
+    };
     return (
         <div className="footer">
             <div className="container">
                 <h1>Learn price section to make consistent profits</h1>
-                <a href="https://rzp.io/l/zoTEgKr">
+                <a onClick={handleClick}>
                     <div>
                         <img src="./photos/enroll-button2.png" className="enrollButton2" />
 

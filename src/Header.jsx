@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Dropdown from "./Dropdown";
 
 const Header = () => {
+    const handleClick = () => {
+        window.open("https://rzp.io/l/zoTEgKr");
+    };
 
     const [open, setOpen] = useState(false)
     return (
@@ -17,7 +20,7 @@ const Header = () => {
                 <a href="#syllabus"><h2>Syllabus</h2></a>
                 <a href="#schedule"><h2>Schedule</h2></a>
                 <a href="#faq"><h2>FAQ</h2></a>
-                <a href="https://rzp.io/l/zoTEgKr"><button>Enroll Now</button></a>
+                <a onClick={handleClick}><button>Enroll Now</button></a>
             </div>
         </div>
     )

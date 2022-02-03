@@ -1,6 +1,9 @@
 import React from "react";
 
 const Section1 = () => {
+    const handleClick = () => {
+        window.open("https://rzp.io/l/zoTEgKr");
+    };
     return (
         <div className="section1">
             <div className="enroll">
@@ -10,10 +13,9 @@ const Section1 = () => {
                 <h3 style={{ fontWeight: "bold", color: "#0189DF", fontSize: "25px", lineHeight: "0.5rem" }}>Jaspreet Singh</h3>
                 <h3 style={{ fontWeight: "bold" }}>(IIT Alumnus and Full Time Swing Trader).</h3>
                 <h3>Master the art and science of making consistent profits by only spending 15 minutes daily.</h3>
-                <div>
-                    <a href="https://rzp.io/l/zoTEgKr">
-                        <img src="./photos/enrollbutton1.png" className="enrollbutton1" />
-                    </a>
+                <div onClick={handleClick}>
+                    <img src="./photos/enrollbutton1.png" className="enrollbutton1" />
+
                 </div>
                 <h3 style={{ lineHeight: "0rem", fontSize: "13px", marginTop: "1.3rem" }}>Batch starts From</h3>
                 <h3 style={{ lineHeight: "1rem" }}><b>20 Feb 2022 - 28 Feb 2022</b></h3>

@@ -1,6 +1,9 @@
 import React from "react";
 
 const Dropdown = (props) => {
+    const handleClick = () => {
+        window.open("https://rzp.io/l/zoTEgKr");
+    };
 
     return (
         <div className="dd">
@@ -9,7 +12,7 @@ const Dropdown = (props) => {
             <a href="#syllabus" onClick={() => props.setOpen(false)}><h2>Syllabus</h2></a>
             <a href="#schedule" onClick={() => props.setOpen(false)}><h2>Schedule</h2></a>
             <a href="#faq" onClick={() => props.setOpen(false)}><h2>FAQ</h2></a>
-            <a href="https://rzp.io/l/zoTEgKr"><button>Enroll Now</button></a>
+            <a onClick={handleClick}><button>Enroll Now</button></a>
         </div>
     )
 
