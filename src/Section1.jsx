@@ -11,7 +11,7 @@ const Section1 = () => {
                 <h3 style={{ fontWeight: "bold" }}>(IIT Alumnus and Full Time Swing Trader).</h3>
                 <h3>Master the art and science of making consistent profits by only spending 15 minutes daily.</h3>
                 <div>
-                    <a href="https://pages.razorpay.com/pl_Ip5FrTNNGxXLGe/view">
+                    <a href="https://rzp.io/l/zoTEgKr">
                         <img src="./photos/enrollbutton1.png" className="enrollbutton1" />
                     </a>
                 </div>

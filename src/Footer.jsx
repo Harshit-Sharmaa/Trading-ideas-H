@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="footer">
             <div className="container">
                 <h1>Learn price section to make consistent profits</h1>
-                <a href="https://pages.razorpay.com/pl_Ip5FrTNNGxXLGe/view">
+                <a href="https://rzp.io/l/zoTEgKr">
                     <div>
                         <img src="./photos/enroll-button2.png" className="enrollButton2" />
 
